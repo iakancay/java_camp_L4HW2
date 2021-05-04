@@ -31,10 +31,10 @@ public class Main {
 		User[] users= {student1,student2,instructor1,instructor2};
 		
 		for(User user: users) {
-		userManager.Add(user);
+		userManager.add(user);
 		}
 		// @ override
-		new InstructorManager().Add(instructor2);
+		new InstructorManager().add(instructor2);
 		
 		
 		
